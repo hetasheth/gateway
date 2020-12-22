@@ -1,0 +1,17 @@
+﻿.reqsign:after{
+    color:red;
+    content:' * ';
+}
+
+.help-block {
+    color: #DB0630;
+}
+
+.no-error{
+    display:none;
+}
+
+.show-error{
+    display:block;
+    color:red;
+}

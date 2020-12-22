@@ -1,0 +1,82 @@
+﻿@model FinalApp.Models.tblUser
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2></h2>
+
+<div class="container">
+    <div class="col-md-2">
+        <img src="~/Images/@Html.DisplayFor(model => model.Photo)" height="120px" width="150px" style="margin-bottom:20px">
+    </div>
+    <div class="col-md-8">
+        <h1>
+            Welcome @Html.DisplayFor(model => model.FirstName) @Html.DisplayFor(model => model.LastName)
+        </h1>
+        <hr/>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="col-md-3">
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailID)
+        </dd>
+    </div>
+    <div class="col-md-3">
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+    </div>
+    <div class="col-md-3">
+        <dt>
+            @Html.DisplayNameFor(model => model.DOB)
+        </dt>
+
+        <dd>
+            @DateTime.Parse(Html.DisplayFor(Model => Model.DOB).ToString()).ToLongDateString()
+        </dd>
+    </div>
+    <div class="clearfix" style="margin-bottom:10px;margin-top:10px"></div>
+    <div class="col-md-3">
+        <dt>
+            @Html.DisplayNameFor(model => model.State)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.State)
+        </dd>
+    </div>
+    <div class="col-md-3">
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+    </div>
+    <div class="col-md-3">
+        <dt>
+            @Html.DisplayNameFor(model => model.Pincode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pincode)
+        </dd>
+    </div>
+    <div class="clearfix" style="margin-bottom:50px;margin-top:50px"></div>
+</div>
+
+
+<p>
+    @Html.ActionLink("Logout", "Logout")
+</p>

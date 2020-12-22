@@ -1,0 +1,48 @@
+﻿@model FinalApp.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+
+@using (Html.BeginForm("LoginUser", "User", FormMethod.Post, new { id = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        
+        <hr />
+        
+        <div class="form-group">
+            <label class="control-label col-md-2" for="EmailID">Email Address <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.EmailID, new { @class = "form-control" })                
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Password"> Password <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.PasswordFor(model => model.Password, new { @class = "form-control" })                
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Register?", "Registration")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Assests/LoginValidation.js"></script>
+    <link href="~/Assests/CustStyle.css" rel="stylesheet" />
+}

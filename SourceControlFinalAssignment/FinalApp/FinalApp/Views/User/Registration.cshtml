@@ -1,0 +1,144 @@
+﻿@model FinalApp.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>Registration</h2>
+
+
+@using (Html.BeginForm("RegisterUser", "User", FormMethod.Post, new { enctype = "multipart/form-data", id = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        
+        <hr />
+
+        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <label class="control-label col-md-2" for="FirstName">First Name <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="LastName">Last Name <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="EmailID">Email Address <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.EmailID, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.EmailID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="PhoneNumber">Phone Number <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.PhoneNumber, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="DOB">Date of Birth <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.DOB, new { @class = "form-control" })
+                <span id="errDOB" class="no-error">You must be 18 year old</span>
+                @Html.ValidationMessageFor(model => model.DOB, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Gender">Gender <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.RadioButtonFor(m => m.Gender, "Male") Male
+                @Html.RadioButtonFor(m => m.Gender, "Female") Female
+                @Html.RadioButtonFor(m => m.Gender, "Other") Other<br />
+                @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Address">Address <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Address, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="State">State <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.State, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.State, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="City">City <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.City, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Pincode">Pincode <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Pincode, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Pincode, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Photo">Profile Photo <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Photo, new { type = "file" })
+                <span id="errPhoto" class="no-error">File must be of image type</span>
+                @Html.ValidationMessageFor(model => model.Photo, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.imgPath, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Password"> Password <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Password, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="ConfPassword">Confirm Password <span class="reqsign"></span></label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.ConfPassword, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ConfPassword, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Login?", "Login")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Assests/RegisterValidation.js"></script>
+    <link href="~/Assests/CustStyle.css" rel="stylesheet" />
+}
