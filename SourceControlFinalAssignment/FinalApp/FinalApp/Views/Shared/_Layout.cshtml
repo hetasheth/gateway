@@ -19,11 +19,11 @@
                 </button>
                 @if (Session["uid"] == null)
                 {
-                    @Html.ActionLink("Application name", "Login", "User", new { area = "" }, new { @class = "navbar-brand" })
+                    @Html.ActionLink("App name", "Login", "User", new { area = "" }, new { @class = "navbar-brand" })
                 }
                 else
                 {
-                    <p class="navbar-brand " style="margin: 0">Application Name</p>
+                    <p class="navbar-brand " style="margin: 0">App Name</p>
                 }
             </div>
             <div class="navbar-collapse collapse">
@@ -46,7 +46,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year -Test application</p>
         </footer>
     </div>
 
