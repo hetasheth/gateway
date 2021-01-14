@@ -1,0 +1,1648 @@
+{
+	"info": {
+		"_postman_id": "3c2bfb80-8d51-4117-920d-dc3c3d543e52",
+		"name": "HMSWebApiCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:1407/api/hotel/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"GenX\",\r\n    \"Address\":\"Kadodara\",\r\n    \"City\":\"Surat\",\r\n    \"Pincode\":\"395008\",\r\n    \"ContactNumber\":\"98765-98765\",\r\n    \"ContactPerson\":\"Manager\",\r\n    \"Website\":\"www.genxsurat.in\",\r\n    \"Facebook\":\"www.facebook.com/GenXSurat\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"IsActrive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"CreatedDate\":\"\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"UpdatedDate\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/hotel/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"hotel",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/hotel/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"White Rose\",\r\n    \"Address\":\"Satellight\",\r\n    \"City\":\"Ahmedabad\",\r\n    \"Pincode\":\"382008\",\r\n    \"ContactNumber\":\"98765-98765\",\r\n    \"ContactPerson\":\"Manager\",\r\n    \"Website\":\"www.whiterose.in\",\r\n    \"Facebook\":\"www.facebook.com/WhiteRose\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"IsActrive\":\"true\",\r\n    \"CreatedBy\":\"admin\",\r\n    \"CreatedDate\":\"\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"UpdatedDate\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/hotel/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"hotel",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/hotel/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Castle\",\r\n    \"Address\":\"Subhanpura\",\r\n    \"City\":\"Vadodara\",\r\n    \"Pincode\":\"362015\",\r\n    \"ContactNumber\":\"98765-00000\",\r\n    \"ContactPerson\":\"Manager\",\r\n    \"Website\":\"www.castle.in\",\r\n    \"Facebook\":\"www.facebook.com/Castle\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"IsActive\":\"true\",\r\n    \"CreatedBy\":\"admin\",\r\n    \"CreatedDate\":\"\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"UpdatedDate\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/hotel/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"hotel",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/hotel/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Salimar\",\r\n    \"Address\":\"Vastrapur\",\r\n    \"City\":\"Ahmedabad\",\r\n    \"Pincode\":\"372115\",\r\n    \"ContactNumber\":\"99887-00000\",\r\n    \"ContactPerson\":\"Manager\",\r\n    \"Website\":\"www.salimar.in\",\r\n    \"Facebook\":\"www.facebook.com/Salimar\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"CreatedDate\":\"\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"UpdatedDate\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/hotel/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"hotel",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/hotel/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Holiday Home\",\r\n    \"Address\":\"Palampor\",\r\n    \"City\":\"Surat\",\r\n    \"Pincode\":\"395001\",\r\n    \"ContactNumber\":\"98986-22331\",\r\n    \"ContactPerson\":\"Manager\",\r\n    \"Website\":\"www.holidayhome.in\",\r\n    \"Facebook\":\"www.facebook.com/HolidayHome003\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"IsActive\":false,\r\n    \"CreatedBy\":\"admin\",\r\n    \"CreatedDate\":\"\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"UpdatedDate\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/hotel/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"hotel",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/hotel/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Sunshine\",\r\n    \"Address\":\"Bodakdev\",\r\n    \"City\":\"Ahmedabad\",\r\n    \"Pincode\":\"382008\",\r\n    \"ContactNumber\":\"98986-22331\",\r\n    \"ContactPerson\":\"Manager\",\r\n    \"Website\":\"www.sunshine.in\",\r\n    \"Facebook\":\"www.facebook.com/Sunshine\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"CreatedDate\":\"\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"UpdatedDate\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/hotel/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"hotel",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Hotel",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Holiday Home\",\r\n    \"Address\":\"Palampor\",\r\n    \"City\":\"Surat\",\r\n    \"Pincode\":\"395001\",\r\n    \"ContactNumber\":\"98986-22331\",\r\n    \"ContactPerson\":\"Manager\",\r\n    \"Website\":\"www.holidayhome.in\",\r\n    \"Facebook\":\"www.facebook.com/HolidayHome003\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"IsActive\":false,\r\n    \"CreatedBy\":\"admin\",\r\n    \"CreatedDate\":\"\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"UpdatedDate\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Hotel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Hotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"A-101\",\r\n    \"Category\":\"Delux 30 m2\",\r\n    \"Price\":2500,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"B-201\",\r\n    \"Category\":\"Super Delux 45 m2\",\r\n    \"Price\":4500,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"C-301\",\r\n    \"Category\":\"Suite 90 m2\",\r\n    \"Price\":4500,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"A3\",\r\n    \"Category\":\"Suite 95 m2\",\r\n    \"Price\":9000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"A1\",\r\n    \"Category\":\"Delux 15 m2\",\r\n    \"Price\":1500,\r\n    \"IsActive\":false,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"A2\",\r\n    \"Category\":\"Super Delux 40 m2\",\r\n    \"Price\":5000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"A101\",\r\n    \"Category\":\"Delux 30 m2\",\r\n    \"Price\":1200,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"1101\",\r\n    \"Category\":\"Delux 30 m2\",\r\n    \"Price\":1700,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"101\",\r\n    \"Category\":\"Delux 30 m2\",\r\n    \"Price\":1000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"B101\",\r\n    \"Category\":\"Super Delux 45 m2\",\r\n    \"Price\":3000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"2101\",\r\n    \"Category\":\"Super Delux 45 m2\",\r\n    \"Price\":3500,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"201\",\r\n    \"Category\":\"Super Delux 45 m2\",\r\n    \"Price\":3200,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"C101\",\r\n    \"Category\":\"Suite 95 m2\",\r\n    \"Price\":7500,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"3101\",\r\n    \"Category\":\"Suite 95 m2\",\r\n    \"Price\":8500,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"301\",\r\n    \"Category\":\"Suite 95 m2\",\r\n    \"Price\":8300,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"admin\",\r\n    \"UpdatedBy\":\"admin\",\r\n    \"HotelID\":5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Room/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/GetRooms",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1407/api/Room/GetRooms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"GetRooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/GetRooms?City=Ahmedabad",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1407/api/Room/GetRooms?City=Ahmedabad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"GetRooms"
+					],
+					"query": [
+						{
+							"key": "City",
+							"value": "Ahmedabad"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/GetRooms?Pincode=382008",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1407/api/Room/GetRooms?Pincode=382008",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"GetRooms"
+					],
+					"query": [
+						{
+							"key": "Pincode",
+							"value": "382008"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/GetRooms?Category=Delux 30 m2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1407/api/Room/GetRooms?Category=Delux 30 m2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"GetRooms"
+					],
+					"query": [
+						{
+							"key": "Category",
+							"value": "Delux 30 m2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/GetRooms?Price=9000",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1407/api/Room/GetRooms?Price=9000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"GetRooms"
+					],
+					"query": [
+						{
+							"key": "Price",
+							"value": "9000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Booking/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RoomID\":2,\r\n    \"BookingDate\":\"04/04/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Booking/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Booking",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Booking/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RoomID\":4,\r\n    \"BookingDate\":\"05/10/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Booking/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Booking",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Booking/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RoomID\":7,\r\n    \"BookingDate\":\"06/12/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Booking/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Booking",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Booking/Create",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RoomID\":16,\r\n    \"BookingDate\":\"06/06/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Booking/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Booking",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/CheckAvailability?RoomID=16&BookDate=07/07/2021",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1407/api/Room/CheckAvailability?RoomID=16&BookDate=07/07/2021",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"CheckAvailability"
+					],
+					"query": [
+						{
+							"key": "RoomID",
+							"value": "16"
+						},
+						{
+							"key": "BookDate",
+							"value": "07/07/2021"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Room/CheckAvailability?RoomID=16&BookDate=07/07/2021",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1407/api/Room/CheckAvailability?RoomID=16&BookDate=06/06/2021",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Room",
+						"CheckAvailability"
+					],
+					"query": [
+						{
+							"key": "RoomID",
+							"value": "16"
+						},
+						{
+							"key": "BookDate",
+							"value": "06/06/2021"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Booking/UpdateDate",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RoomID\":16,\r\n    \"BookingDate\":\"07/06/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Booking/UpdateDate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Booking",
+						"UpdateDate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Booking/UpdateStatus",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ID\":4,\r\n    \"Status\":\"Cancelled\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Booking/UpdateStatus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Booking",
+						"UpdateStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Booking/UpdateStatus",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ID\":2,\r\n    \"Status\":\"Definitive\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1407/api/Booking/UpdateStatus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Booking",
+						"UpdateStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1407/api/Booking/1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1407/api/Booking/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1407",
+					"path": [
+						"api",
+						"Booking",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
