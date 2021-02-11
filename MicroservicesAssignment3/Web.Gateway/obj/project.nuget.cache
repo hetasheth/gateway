@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DxksQXgSAGg96pRr3BcbeX/8XFsdFStZsfl9onyipnzj907IilK/rz+QvGFH4FS0cfh1HGpeES7jzH1IcmD4Sw==",
+  "success": true,
+  "projectFilePath": "D:\\Gateway Group of Companies\\Assignments\\MicroservicesAssignment3\\APIGatewayDemo\\Web.Gateway\\Web.Gateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
