@@ -22,3 +22,9 @@ D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDem
 D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDemo\Web.Gateway\obj\Debug\netcoreapp3.1\Web.Gateway.dll
 D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDemo\Web.Gateway\obj\Debug\netcoreapp3.1\Web.Gateway.pdb
 D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDemo\Web.Gateway\obj\Debug\netcoreapp3.1\Web.Gateway.genruntimeconfig.cache
+D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDemo\Web.Gateway\bin\Debug\netcoreapp3.1\AspNetCoreRateLimit.dll
+D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDemo\Web.Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDemo\Web.Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDemo\Web.Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDemo\Web.Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Gateway Group of Companies\Assignments\MicroservicesAssignment3\APIGatewayDemo\Web.Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll

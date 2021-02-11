@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "DxksQXgSAGg96pRr3BcbeX/8XFsdFStZsfl9onyipnzj907IilK/rz+QvGFH4FS0cfh1HGpeES7jzH1IcmD4Sw==",
+  "dgSpecHash": "XGNq2QwOs5KbcUVOdT130hJKmAbkTb3FiEkjyaRlZ9Un62inXAsuRhFVgtf+iUAwVbDHOn8Ti0yZyxFtnUk2vg==",
   "success": true,
   "projectFilePath": "D:\\Gateway Group of Companies\\Assignments\\MicroservicesAssignment3\\APIGatewayDemo\\Web.Gateway\\Web.Gateway.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\aspnetcoreratelimit\\3.2.2\\aspnetcoreratelimit.3.2.2.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.9\\microsoft.extensions.caching.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.9\\microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
