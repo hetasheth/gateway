@@ -1,0 +1,5 @@
+D:\Gateway Group of Companies\Assignments\AppointmentBookingSystem\ABS.Models\bin\Debug\ABS.Models.dll
+D:\Gateway Group of Companies\Assignments\AppointmentBookingSystem\ABS.Models\bin\Debug\ABS.Models.pdb
+D:\Gateway Group of Companies\Assignments\AppointmentBookingSystem\ABS.Models\obj\Debug\ABS.Models.csproj.CoreCompileInputs.cache
+D:\Gateway Group of Companies\Assignments\AppointmentBookingSystem\ABS.Models\obj\Debug\ABS.Models.dll
+D:\Gateway Group of Companies\Assignments\AppointmentBookingSystem\ABS.Models\obj\Debug\ABS.Models.pdb

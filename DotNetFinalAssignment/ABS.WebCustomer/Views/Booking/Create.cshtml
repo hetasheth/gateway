@@ -1,0 +1,111 @@
+﻿@model ABS.WebCustomer.Models.BookingVM
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+<div class="row">
+    <div class="portlet box green">
+        <div class="portlet-title">
+            <div class="tools_icon" onClick="window.location.href = '/Booking/Index'">
+                <i class="fa fa-arrow-circle-left bold"></i>
+            </div>
+            <div class="caption">
+                Add/Update Booking
+            </div>
+        </div>
+        <div class="portlet-body form">
+            @using (Html.BeginForm("CreateOrEdit", "Booking", FormMethod.Post, new { id = "form", enctype = "multipart/form-data", @class = "form-horizontal p20" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="col-md-12">
+                    <div class="errorHandler alert alert-danger display-hide">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.HiddenFor(model => model.Id)
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            Vehicle
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.DropDownList("VehicleId", (IEnumerable<SelectListItem>)ViewData["vehicleList"], new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.VehicleId, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            Service
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.DropDownList("ServiceId", (IEnumerable<SelectListItem>)ViewData["serviceList"], new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.ServiceId, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            Start Date Time
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(model => model.StartDateTime, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.StartDateTime, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            End Date Time
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(model => model.EndDateTime, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.EndDateTime, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" id="btnSubmit" class="btn btn-success" value="Submit" style="width:100px" />
+                        <input type="button" id="btnClear" class="btn btn-default" value="Cancel" style="width:100px" />
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            var msg = '@TempData["invalidLogin"]';
+            if (msg != '') {
+                toastr.error(msg);
+            }
+
+            $("#EndDateTime").val("");
+            $("#EndDateTime").datetimepicker({
+                format: 'dd-M-yyyy',
+                autoclose: true
+            });
+
+            $("#StartDateTime").val("");
+            $("#StartDateTime").datetimepicker({
+                format: 'dd-M-yyyy',
+                minDate: 'today',
+                autoclose: true
+            });
+        });
+    </script>
+}

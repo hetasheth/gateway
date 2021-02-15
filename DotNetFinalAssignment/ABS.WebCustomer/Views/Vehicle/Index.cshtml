@@ -1,0 +1,91 @@
+﻿@model IEnumerable<ABS.Models.Vehicle>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="portlet box green ">
+            <div class="portlet-title">
+                <div class="caption font-dark">
+                    <span class="caption-subject bold"> Vehicles </span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="col-md-4" style="padding:0px">
+                    <a href="/Vehicle/Create" class="btn btn-success">Add Vehicle  <i class="fa fa-plus"></i></a><br /><br />
+                </div>
+                <div class="portlet-body" style="margin-top:10px">
+                    <table class="table table-striped table-bordered table-hover table-checkable order-column" id="myTable" style="cursor:pointer">
+                        <thead>
+                            <tr>                                
+                                <th width="15%">
+                                    Licence Plate
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Make)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Model)
+                                </th>
+                                <th>
+                                    Registration Date
+                                </th>
+                                <th>
+                                    Chassis Number
+                                </th>
+                                <th>
+                                    Owner Name
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr role="row" class="filter">                                
+                                <td style="display: table-cell;vertical-align: middle;">
+                                    @Html.DisplayFor(modelItem => item.LicencePlate)
+                                </td>
+                                <td style="display: table-cell;vertical-align: middle;">
+                                    @Html.DisplayFor(modelItem => item.Make)
+                                </td>
+                                <td style="display: table-cell;vertical-align: middle;">
+                                    @Html.DisplayFor(modelItem => item.Model)
+                                </td>
+                                <td style="display: table-cell;vertical-align: middle;">
+                                    @Html.DisplayFor(modelItem => item.RegistrationDate)
+                                </td>
+                                <td style="display: table-cell;vertical-align: middle;">
+                                    @Html.DisplayFor(modelItem => item.ChassisNo)
+                                </td>
+                                <td style="display: table-cell;vertical-align: middle;">
+                                    @Html.DisplayFor(modelItem => item.OwnerName)
+                                </td>
+                                <td style="display: table-cell;vertical-align: middle;">
+                                    <a href="/Vehicle/Edit/@Html.DisplayFor(modelItem => item.Id)" class="btn btn-success"><i class='fa fa-pencil'></i></a>
+                                    <a href="/Vehicle/Delete/@Html.DisplayFor(modelItem => item.Id)" class="btn btn-danger"><i class='fa fa-times'></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            var msg = '@TempData["invalidLogin"]';
+            if (msg != '') {
+                toastr.error(msg);
+            }            
+        });
+    </script>
+}

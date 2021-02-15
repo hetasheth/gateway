@@ -1,0 +1,134 @@
+﻿@model ABS.WebCustomer.Models.VehicleVM
+
+@{
+    ViewBag.Title = "Add/Update Vehicle ";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+<div class="row">
+    <div class="portlet box green">
+        <div class="portlet-title">
+            <div class="tools_icon" onClick="window.location.href = '/Vehicle/Index'">
+                <i class="fa fa-arrow-circle-left bold"></i>
+            </div>
+            <div class="caption">
+                @ViewBag.Title
+            </div>
+        </div>
+        <div class="portlet-body form">
+            @using (Html.BeginForm("CreateOrEdit", "Vehicle", FormMethod.Post, new { id = "form", enctype = "multipart/form-data", @class = "form-horizontal p20" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="col-md-12">
+                    <div class="errorHandler alert alert-danger display-hide">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.HiddenFor(model => model.Id)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            Licence Plate
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(model => model.LicencePlate, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.LicencePlate, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            Make
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(model => model.Make, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Make, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            Model
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(model => model.Model, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Model, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            Registration Date
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(model => model.RegistrationDate, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.RegistrationDate, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            Chassis No
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(model => model.ChassisNo, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.ChassisNo, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="col-sm-2 control-label">
+                            Owner Name
+                            <span class="symbol required"></span>
+                        </label>
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(model => model.OwnerName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.OwnerName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" id="btnSubmit" class="btn btn-success" value="Submit" style="width:100px" />
+                        <input type="button" id="btnClear" class="btn btn-default" value="Cancel" style="width:100px" />
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            var msg = '@TempData["invalidLogin"]';
+            if (msg != '') {
+                toastr.error(msg);
+            }
+
+            var dt = $("#RegistrationDate").val();
+            if (dt == "0001-01-01 00:00:00") {
+                $("#RegistrationDate").val("");
+            }
+            $("#RegistrationDate").datepicker({
+                format: 'dd-M-yyyy',
+                minDate: 'today',
+                autoclose: true
+            });
+        });
+    </script>
+}
+
+
