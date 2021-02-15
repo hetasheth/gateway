@@ -1,0 +1,6 @@
+D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\bin\Debug\PMS.Models.dll
+D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\bin\Debug\PMS.Models.pdb
+D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\obj\Debug\PMS.Models.csprojAssemblyReference.cache
+D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\obj\Debug\PMS.Models.csproj.CoreCompileInputs.cache
+D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\obj\Debug\PMS.Models.dll
+D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\obj\Debug\PMS.Models.pdb
