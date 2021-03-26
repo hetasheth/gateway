@@ -29,3 +29,35 @@ D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.BAL\obj\D
 D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.BAL\obj\Debug\PMS.BAL.csproj.CopyComplete
 D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.BAL\obj\Debug\PMS.BAL.dll
 D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.BAL\obj\Debug\PMS.BAL.pdb
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\PMS.BAL.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\PMS.BAL.pdb
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\Newtonsoft.Json.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\PMS.DAL.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\PMS.Models.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\System.Net.Http.Formatting.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\System.Web.Http.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\Unity.Abstractions.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\Unity.Container.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\Unity.WebApi.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\AutoMapper.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\EntityFramework.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\PMS.DAL.pdb
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\PMS.DAL.dll.config
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\PMS.Models.pdb
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\Newtonsoft.Json.xml
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\System.Net.Http.Formatting.xml
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\System.Web.Http.xml
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\Unity.Abstractions.pdb
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\Unity.Container.pdb
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\AutoMapper.xml
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\EntityFramework.xml
+E:\gateway\C#FinalAssignment\PMS.BAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\gateway\C#FinalAssignment\PMS.BAL\obj\Debug\PMS.BAL.csprojAssemblyReference.cache
+E:\gateway\C#FinalAssignment\PMS.BAL\obj\Debug\PMS.BAL.csproj.CoreCompileInputs.cache
+E:\gateway\C#FinalAssignment\PMS.BAL\obj\Debug\PMS.BAL.csproj.CopyComplete
+E:\gateway\C#FinalAssignment\PMS.BAL\obj\Debug\PMS.BAL.dll
+E:\gateway\C#FinalAssignment\PMS.BAL\obj\Debug\PMS.BAL.pdb

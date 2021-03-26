@@ -14,3 +14,19 @@ D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.DAL\obj\D
 D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.DAL\obj\Debug\PMS.DAL.csproj.CopyComplete
 D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.DAL\obj\Debug\PMS.DAL.dll
 D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.DAL\obj\Debug\PMS.DAL.pdb
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\PMS.DAL.dll.config
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\PMS.DAL.dll
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\PMS.DAL.pdb
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\AutoMapper.dll
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\EntityFramework.dll
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\PMS.Models.dll
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\PMS.Models.pdb
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\AutoMapper.xml
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\EntityFramework.xml
+E:\gateway\C#FinalAssignment\PMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\gateway\C#FinalAssignment\PMS.DAL\obj\Debug\PMS.DAL.csprojAssemblyReference.cache
+E:\gateway\C#FinalAssignment\PMS.DAL\obj\Debug\PMS.DAL.csproj.CoreCompileInputs.cache
+E:\gateway\C#FinalAssignment\PMS.DAL\obj\Debug\PMS.DAL.csproj.CopyComplete
+E:\gateway\C#FinalAssignment\PMS.DAL\obj\Debug\PMS.DAL.dll
+E:\gateway\C#FinalAssignment\PMS.DAL\obj\Debug\PMS.DAL.pdb

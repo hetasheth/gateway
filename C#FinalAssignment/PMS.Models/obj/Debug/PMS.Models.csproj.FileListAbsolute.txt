@@ -4,3 +4,9 @@ D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\ob
 D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\obj\Debug\PMS.Models.csproj.CoreCompileInputs.cache
 D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\obj\Debug\PMS.Models.dll
 D:\Gateway Group of Companies\Assignments\ProductManagementSysytem\PMS.Models\obj\Debug\PMS.Models.pdb
+E:\gateway\C#FinalAssignment\PMS.Models\bin\Debug\PMS.Models.dll
+E:\gateway\C#FinalAssignment\PMS.Models\bin\Debug\PMS.Models.pdb
+E:\gateway\C#FinalAssignment\PMS.Models\obj\Debug\PMS.Models.csprojAssemblyReference.cache
+E:\gateway\C#FinalAssignment\PMS.Models\obj\Debug\PMS.Models.csproj.CoreCompileInputs.cache
+E:\gateway\C#FinalAssignment\PMS.Models\obj\Debug\PMS.Models.dll
+E:\gateway\C#FinalAssignment\PMS.Models\obj\Debug\PMS.Models.pdb
