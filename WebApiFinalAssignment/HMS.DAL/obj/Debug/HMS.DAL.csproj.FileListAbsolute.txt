@@ -14,3 +14,19 @@ D:\Gateway Group\HMS.WebApi\HMS.DAL\obj\Debug\HMS.DAL.dll
 D:\Gateway Group\HMS.WebApi\HMS.DAL\obj\Debug\HMS.DAL.pdb
 D:\Gateway Group\HMS.WebApi\HMS.DAL\bin\Debug\AutoMapper.dll
 D:\Gateway Group\HMS.WebApi\HMS.DAL\bin\Debug\AutoMapper.xml
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\HMS.DAL.dll.config
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\HMS.DAL.dll
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\HMS.DAL.pdb
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\AutoMapper.dll
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\EntityFramework.dll
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\HMS.Models.dll
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\HMS.Models.pdb
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\AutoMapper.xml
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\EntityFramework.xml
+E:\gateway\WebApiFinalAssignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\gateway\WebApiFinalAssignment\HMS.DAL\obj\Debug\HMS.DAL.csprojAssemblyReference.cache
+E:\gateway\WebApiFinalAssignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CoreCompileInputs.cache
+E:\gateway\WebApiFinalAssignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
+E:\gateway\WebApiFinalAssignment\HMS.DAL\obj\Debug\HMS.DAL.dll
+E:\gateway\WebApiFinalAssignment\HMS.DAL\obj\Debug\HMS.DAL.pdb

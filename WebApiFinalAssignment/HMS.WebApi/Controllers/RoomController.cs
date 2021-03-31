@@ -11,7 +11,7 @@ using System.Web.Http.Cors;
 namespace HMS.WebApi.Controllers
 {
     [BasicAuthenticationClasses.BasicAuthentication]
-    [Authorize]
+    //[Authorize]
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class RoomController : ApiController
     {

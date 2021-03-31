@@ -4,3 +4,9 @@ D:\Gateway Group\HMS.WebApi\HMS.Models\obj\Debug\HMS.Models.csprojAssemblyRefere
 D:\Gateway Group\HMS.WebApi\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
 D:\Gateway Group\HMS.WebApi\HMS.Models\obj\Debug\HMS.Models.dll
 D:\Gateway Group\HMS.WebApi\HMS.Models\obj\Debug\HMS.Models.pdb
+E:\gateway\WebApiFinalAssignment\HMS.Models\bin\Debug\HMS.Models.dll
+E:\gateway\WebApiFinalAssignment\HMS.Models\bin\Debug\HMS.Models.pdb
+E:\gateway\WebApiFinalAssignment\HMS.Models\obj\Debug\HMS.Models.csprojAssemblyReference.cache
+E:\gateway\WebApiFinalAssignment\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
+E:\gateway\WebApiFinalAssignment\HMS.Models\obj\Debug\HMS.Models.dll
+E:\gateway\WebApiFinalAssignment\HMS.Models\obj\Debug\HMS.Models.pdb

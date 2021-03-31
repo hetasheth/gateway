@@ -1,33 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\XUnitTest\\XUnitTest.csproj": {}
+    "E:\\gateway\\TestingAssignment1\\XUnitTest\\XUnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj": {
+    "E:\\gateway\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj",
+        "projectUniqueName": "E:\\gateway\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj",
         "projectName": "TestingWebAPI",
-        "projectPath": "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj"
+        "projectPath": "E:\\gateway\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\XUnitTest\\XUnitTest.csproj": {
+    "E:\\gateway\\TestingAssignment1\\XUnitTest\\XUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\XUnitTest\\XUnitTest.csproj",
+        "projectUniqueName": "E:\\gateway\\TestingAssignment1\\XUnitTest\\XUnitTest.csproj",
         "projectName": "XUnitTest",
-        "projectPath": "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\XUnitTest\\XUnitTest.csproj",
-        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\XUnitTest\\obj\\",
+        "projectPath": "E:\\gateway\\TestingAssignment1\\XUnitTest\\XUnitTest.csproj",
+        "packagesPath": "C:\\Users\\heta.sheth\\.nuget\\packages\\",
+        "outputPath": "E:\\gateway\\TestingAssignment1\\XUnitTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\heta.sheth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,8 +38,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj": {
-                "projectPath": "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj"
+              "E:\\gateway\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj": {
+                "projectPath": "E:\\gateway\\TestingAssignment1\\TestingWebAPI\\TestingWebAPI.csproj"
               }
             }
           }
@@ -101,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

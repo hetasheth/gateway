@@ -3485,23 +3485,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acer\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\heta.sheth\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Gateway Group of Companies\\Assignments\\XUnitTestProject\\XUnitTestProject.csproj",
+      "projectUniqueName": "E:\\gateway\\TestingAssignment2\\XUnitTestProject\\XUnitTestProject.csproj",
       "projectName": "XUnitTestProject",
-      "projectPath": "D:\\Gateway Group of Companies\\Assignments\\XUnitTestProject\\XUnitTestProject.csproj",
-      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "D:\\Gateway Group of Companies\\Assignments\\XUnitTestProject\\obj\\",
+      "projectPath": "E:\\gateway\\TestingAssignment2\\XUnitTestProject\\XUnitTestProject.csproj",
+      "packagesPath": "C:\\Users\\heta.sheth\\.nuget\\packages\\",
+      "outputPath": "E:\\gateway\\TestingAssignment2\\XUnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\heta.sheth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3515,8 +3511,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment2\\TestingAssignment2.csproj": {
-              "projectPath": "D:\\Gateway Group of Companies\\Assignments\\TestingAssignment2\\TestingAssignment2.csproj"
+            "E:\\gateway\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
+              "projectPath": "E:\\gateway\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj"
             }
           }
         }
@@ -3563,7 +3559,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -8,6 +8,8 @@ using TestingWebAPI.Models;
 using System.Collections.Generic;
 using System.Web.Http.Results;
 using System.IO;
+using System.Web.Http;
+using System.Linq;
 
 namespace XUnitTest
 {
@@ -22,26 +24,27 @@ namespace XUnitTest
 
         [Fact]
         public void TestGetPassengers()
-        {             
-            //Arrange
-            var resultType = mockDataRepo.Setup(x => x.GetPassengers()).Returns(GetPassengerList());
-            //Act
+        {
+            // Arrange
+            var resultType = mockDataRepo.Setup(x => x.GetPassengers())
+                                         .Returns(GetPassengerList().ToList().AsQueryable());
+            // Act
             var response = _passengerController.GetPassengers();
-            //Assert
+            // Assert
             Assert.Equal(3, response.Count);
         }
 
         [Fact]
         public void TestGetPassengerById()
         {
-            //Arrange
+            // Arrange
             var passenger = new Passenger();
-            passenger.PassengerNumber = new System.Guid("3CDBC747-DB0A-4EF1-9353-6A1110DC05B9");
+            passenger.PassengerNumber = new Guid("3CDBC747-DB0A-4EF1-9353-6A1110DC05B9");
 
             var resultType = mockDataRepo.Setup(x => x.GetPassengerById(passenger.PassengerNumber.ToString())).Returns(passenger);
-            //Act
+            // Act
             var result = _passengerController.GetPassengerById(passenger.PassengerNumber.ToString());
-            //Assert
+            // Assert
             var isNull = Assert.IsType<OkNegotiatedContentResult<Passenger>>(result);
             Assert.NotNull(isNull);
         }
@@ -49,10 +52,16 @@ namespace XUnitTest
         [Fact]
         public void TestRegisterPassenger()
         {
-            var pass = new Passenger() { PassengerNumber = new System.Guid(), FirstName = "Heta", Lastname = "Sheth", PhoneNumber = "7744112255" };
-            var response = mockDataRepo.Setup(x => x.Register(pass)).Returns(AddPassenger());
+            var pass = new Passenger() 
+            { 
+                PassengerNumber = new Guid(), 
+                FirstName = "Heta", 
+                Lastname = "Sheth", 
+                PhoneNumber = "7744112255" 
+            };
+            var response = mockDataRepo.Setup(x => x.Register(pass)).Returns(true);
 
-            //Act
+            // Act
             var result = _passengerController.RegisterPassenger(pass);
             Assert.NotNull(result);
         }
@@ -60,48 +69,70 @@ namespace XUnitTest
         [Fact]
         public void TestUpdatePassenger()
         {
-            //Act
+            // Act
             var model = JsonConvert.DeserializeObject<Passenger>(File.ReadAllText("Data/UpdatePassenger.json"));
 
-            //Arrange
-            var result = mockDataRepo.Setup(x => x.Update(model)).Returns(model);
+            // Arrange
+            var result = mockDataRepo.Setup(x => x.Update(model)).Returns(true);
             var response = _passengerController.UpdatePassenger(model);
 
-            //Assert
-            Assert.Equal(model, response);
+            // Assert
+            Assert.IsType<OkResult>(response);
         }
 
         [Fact]
         public void TestDeletePassenger()
         {
-            //Arrange
+            // Arrange
             var passenger = new Passenger();
-            passenger.PassengerNumber = new System.Guid("71db59ab-f61c-4ff6-ba2b-2ff4026b05b9");
+            passenger.PassengerNumber = new Guid("71db59ab-f61c-4ff6-ba2b-2ff4026b05b9");
 
             var resultType = mockDataRepo.Setup(x => x.Delete(passenger.PassengerNumber.ToString())).Returns(true);
-            //Act
+            // Act
             var response = _passengerController.DeletePassenger(passenger.PassengerNumber.ToString());
-            //Assert
-            Assert.True(response);
+            // Assert
+            Assert.IsType<OkResult>(response);
         }
-
-
 
         private static List<Passenger> GetPassengerList()
         {
             List<Passenger> passengers = new List<Passenger>()
             {
-                new Passenger(){PassengerNumber=new System.Guid("3CDBC747-DB0A-4EF1-9353-6A1110DC05B9"),FirstName="Sukeshi",Lastname="Patel",PhoneNumber="9988774411"},
-                new Passenger(){PassengerNumber=new System.Guid("71db59ab-f61c-4ff6-ba2b-2ff4026b05b9"),FirstName="Heena",Lastname="Khan",PhoneNumber="7539510100"},
-                new Passenger(){PassengerNumber=new System.Guid("1f02f425-800a-4f8d-aa8b-c1450981ce1e"),FirstName="Umang",Lastname="Patel",PhoneNumber="8877662200"}
+                new Passenger()
+                {
+                    PassengerNumber=new Guid("3CDBC747-DB0A-4EF1-9353-6A1110DC05B9"),
+                    FirstName="Sukeshi",
+                    Lastname="Patel",
+                    PhoneNumber="9988774411"
+                },
+                new Passenger()
+                {
+                    PassengerNumber=new Guid("71db59ab-f61c-4ff6-ba2b-2ff4026b05b9"),
+                    FirstName="Heena",
+                    Lastname="Khan",
+                    PhoneNumber="7539510100"
+                },
+                new Passenger()
+                {
+                    PassengerNumber=new Guid("1f02f425-800a-4f8d-aa8b-c1450981ce1e"),
+                    FirstName="Umang",
+                    Lastname="Patel",
+                    PhoneNumber="8877662200"
+                }
             };
             return passengers;
         }
 
-
         private static Passenger AddPassenger()
         {
-            var passenger = new Passenger() { PassengerNumber = new System.Guid("98D66512-B3F4-4107-BFB2-9E7BE0D82040"), FirstName = "YATIN", Lastname = "SHARMA", PhoneNumber = "123456789" };
+            var passenger = new Passenger()
+            {
+                PassengerNumber =
+                new Guid("98D66512-B3F4-4107-BFB2-9E7BE0D82040"),
+                FirstName = "YATIN",
+                Lastname = "SHARMA",
+                PhoneNumber = "123456789"
+            };
             return passenger;
         }
     }
