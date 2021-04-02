@@ -119,3 +119,9 @@ D:\Gateway Group of Companies\Assignments\TestingAssignment1\XUnitTest\obj\Debug
 D:\Gateway Group of Companies\Assignments\TestingAssignment1\XUnitTest\obj\Debug\netcoreapp3.1\XUnitTest.dll
 D:\Gateway Group of Companies\Assignments\TestingAssignment1\XUnitTest\obj\Debug\netcoreapp3.1\XUnitTest.pdb
 D:\Gateway Group of Companies\Assignments\TestingAssignment1\XUnitTest\obj\Debug\netcoreapp3.1\XUnitTest.genruntimeconfig.cache
+E:\gateway\TestingAssignment1\XUnitTest\obj\Debug\netcoreapp3.1\XUnitTest.csprojAssemblyReference.cache
+E:\gateway\TestingAssignment1\XUnitTest\obj\Debug\netcoreapp3.1\XUnitTest.AssemblyInfoInputs.cache
+E:\gateway\TestingAssignment1\XUnitTest\obj\Debug\netcoreapp3.1\XUnitTest.AssemblyInfo.cs
+E:\gateway\TestingAssignment1\XUnitTest\obj\Debug\netcoreapp3.1\XUnitTest.csproj.CoreCompileInputs.cache
+E:\gateway\TestingAssignment1\XUnitTest\obj\Debug\netcoreapp3.1\XUnitTest.dll
+E:\gateway\TestingAssignment1\XUnitTest\obj\Debug\netcoreapp3.1\XUnitTest.pdb

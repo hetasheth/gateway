@@ -16,48 +16,51 @@ namespace TestingWebAPI.Repository.Class
             _dbContext = new GatewayCruiseDBEntities();
         }    
             
-        public Passenger Register(Passenger passenger)
+        public bool Register(Passenger passenger)
         {
             if (passenger != null)
             {
                 passenger.PassengerNumber = Guid.NewGuid();
                 _dbContext.Passengers.Add(passenger);
-                _dbContext.SaveChanges();
-                return passenger;
-            }
-            return passenger;
-        }
-
-        public Passenger Update(Passenger passenger)
-        {
-            var p = _dbContext.Passengers.Where(x => (passenger.Equals(x.PassengerNumber.ToString()))).FirstOrDefault();
-            _dbContext.Passengers.Attach(passenger);
-            _dbContext.SaveChanges();
-            return passenger;
-        }
-
-        public bool Delete(string id)
-        {
-            var passenger = _dbContext.Passengers.Where(s => (id.Equals(s.PassengerNumber.ToString()))).FirstOrDefault();
-            if (passenger.FirstName != null)
-            {
-                _dbContext.Passengers.Remove(passenger);
-                _dbContext.SaveChanges();
-                return true;
+                var result =_dbContext.SaveChanges();
+                return result == 1 ? true : false;
             }
             return false;
         }
 
-        public List<Passenger> GetPassengers()
+        public bool Update(Passenger passenger)
         {
-            var entities = _dbContext.Passengers.OrderBy(c => c.FirstName).ToList();
-            return entities;
+            var passengerObj = _dbContext.Passengers.FirstOrDefault(x => x.PassengerNumber == passenger.PassengerNumber);
+            if (passengerObj != null)
+            {
+                _dbContext.Passengers.Attach(passenger);
+                var result= _dbContext.SaveChanges();
+                return result == 1 ? true : false;
+            }
+            return false;
+        }
+
+        public bool Delete(string id)
+        {
+            var passenger = _dbContext.Passengers.FirstOrDefault(x => x.PassengerNumber == Guid.Parse(id));
+            if (passenger != null)
+            {
+                _dbContext.Passengers.Remove(passenger);
+                var result = _dbContext.SaveChanges();
+                return result == 1 ? true : false;
+            }
+            return false;
+        }
+
+        public IQueryable<Passenger> GetPassengers()
+        {
+            return _dbContext.Passengers;
         }
 
         public Passenger GetPassengerById(string id)
         {
-            var passenger = _dbContext.Passengers.Where(s => (id.Equals(s.PassengerNumber.ToString()))).FirstOrDefault();
-            return passenger;
+            // var passenger = _dbContext.Passengers.Where(s => (id.Equals(s.PassengerNumber.ToString()))).FirstOrDefault();
+            return _dbContext.Passengers.FirstOrDefault(p => p.PassengerNumber == Guid.Parse(id));            
         }
 
     }

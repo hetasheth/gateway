@@ -3,7 +3,7 @@
   <EntityContainerMapping StorageEntityContainer="HotelManageSystemDBModelStoreContainer" CdmEntityContainer="HotelManageSystemDBEntities">
     <EntitySetMapping Name="Bookings">
       <EntityTypeMapping TypeName="HotelManageSystemDBModel.Booking">
-        <MappingFragment StoreEntitySet="Bookings">
+        <MappingFragment StoreEntitySet="Booking">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="RoomID" ColumnName="RoomID" />
           <ScalarProperty Name="BookingDate" ColumnName="BookingDate" />
@@ -13,11 +13,12 @@
     </EntitySetMapping>
     <EntitySetMapping Name="Hotels">
       <EntityTypeMapping TypeName="HotelManageSystemDBModel.Hotel">
-        <MappingFragment StoreEntitySet="Hotels">
+        <MappingFragment StoreEntitySet="Hotel">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Address" ColumnName="Address" />
           <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
           <ScalarProperty Name="Pincode" ColumnName="Pincode" />
           <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
           <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
@@ -34,7 +35,7 @@
     </EntitySetMapping>
     <EntitySetMapping Name="Rooms">
       <EntityTypeMapping TypeName="HotelManageSystemDBModel.Room">
-        <MappingFragment StoreEntitySet="Rooms">
+        <MappingFragment StoreEntitySet="Room">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Category" ColumnName="Category" />

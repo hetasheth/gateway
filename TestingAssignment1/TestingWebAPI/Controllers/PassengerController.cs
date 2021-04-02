@@ -20,57 +20,65 @@ namespace TestingWebAPI.Controllers
 
         [HttpGet]
         [Route("api/Passenger/GetPassengers")]
-        public List<Passenger> GetPassengers()
+        public IList<Passenger> GetPassengers()
         {
-            return _passengerRepository.GetPassengers();
+            return _passengerRepository.GetPassengers().ToList();
         }
 
         [HttpGet]
         [Route("api/Passenger/GetPassengerById")]
-        public HttpResponseMessage GetPassengerById(String id)
+        public IHttpActionResult GetPassengerById(String id)
         {
             try
             {
-                if (id != null)
+                if (!string.IsNullOrEmpty(id))
                 {
                     var passenger = _passengerRepository.GetPassengerById(id);
                     if (passenger.FirstName != null)
                     {
-                        return Request.CreateResponse(HttpStatusCode.OK, passenger);
+                        return Ok(passenger);
                     }
                     else
                     {
-                        return Request.CreateResponse(HttpStatusCode.InternalServerError);
+                        return InternalServerError();
                     }
                 }
-                return Request.CreateResponse(HttpStatusCode.InternalServerError);
+                return BadRequest("Invalid passenger id");
             }
             catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                return Request.CreateResponse(HttpStatusCode.InternalServerError);
+            {                
+                return InternalServerError();
             }
         }
 
         [HttpPost]
         [Route("api/Passenger/RegisterPassenger")]
-        public Passenger RegisterPassenger(Passenger passenger)
+        public IHttpActionResult RegisterPassenger(Passenger passenger)
         {
-            return _passengerRepository.Register(passenger);
+            if (!ModelState.IsValid)
+                return BadRequest("Invalid model");
+            else
+                return Ok(_passengerRepository.Register(passenger));
         }
 
         [HttpPut]
         [Route("api/Passenger/UpdatePassenger")]
-        public Passenger UpdatePassenger(Passenger passenger)
+        public IHttpActionResult UpdatePassenger(Passenger passenger)
         {
-            return _passengerRepository.Update(passenger);
+            if (!ModelState.IsValid)
+                return BadRequest("Invalid model");
+            else
+                return Ok(_passengerRepository.Update(passenger));
         }
 
         [HttpDelete]
         [Route("api/Passenger/DeletePassenger")]
-        public bool DeletePassenger(String id)
+        public IHttpActionResult DeletePassenger(String id)
         {
-            return _passengerRepository.Delete(id);
+            if (string.IsNullOrEmpty(id))
+                return BadRequest("Not a valid passenger id");
+            else
+                return Ok(_passengerRepository.Delete(id));
         }
     }
 }

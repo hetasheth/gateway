@@ -29,3 +29,33 @@ D:\Gateway Group\HMS.WebApi\HMS.BAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\Gateway Group\HMS.WebApi\HMS.BAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Gateway Group\HMS.WebApi\HMS.BAL\bin\Debug\AutoMapper.dll
 D:\Gateway Group\HMS.WebApi\HMS.BAL\bin\Debug\AutoMapper.xml
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\HMS.BAL.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\HMS.BAL.pdb
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\HMS.DAL.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\HMS.Models.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\Newtonsoft.Json.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\System.Net.Http.Formatting.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\System.Web.Http.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\Unity.Abstractions.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\Unity.Container.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\Unity.WebApi.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\AutoMapper.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\EntityFramework.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\HMS.DAL.pdb
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\HMS.DAL.dll.config
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\HMS.Models.pdb
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\Newtonsoft.Json.xml
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\System.Net.Http.Formatting.xml
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\System.Web.Http.xml
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\Unity.Abstractions.pdb
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\Unity.Container.pdb
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\AutoMapper.xml
+E:\gateway\WebApiFinalAssignment\HMS.BAL\bin\Debug\EntityFramework.xml
+E:\gateway\WebApiFinalAssignment\HMS.BAL\obj\Debug\HMS.BAL.csprojAssemblyReference.cache
+E:\gateway\WebApiFinalAssignment\HMS.BAL\obj\Debug\HMS.BAL.csproj.CoreCompileInputs.cache
+E:\gateway\WebApiFinalAssignment\HMS.BAL\obj\Debug\HMS.BAL.csproj.CopyComplete
+E:\gateway\WebApiFinalAssignment\HMS.BAL\obj\Debug\HMS.BAL.dll
+E:\gateway\WebApiFinalAssignment\HMS.BAL\obj\Debug\HMS.BAL.pdb

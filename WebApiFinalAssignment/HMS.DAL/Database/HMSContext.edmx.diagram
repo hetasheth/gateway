@@ -4,12 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="f750b4fc9bbe406d9fe31983a64fc710" Name="Diagram1">
-        <EntityTypeShape EntityType="HotelManageSystemDBModel.Booking" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+      <Diagram DiagramId="b478dfbe3ab142cc997d6908a9398479" Name="Diagram1">
+        <EntityTypeShape EntityType="HotelManageSystemDBModel.Booking" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
         <EntityTypeShape EntityType="HotelManageSystemDBModel.Hotel" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="HotelManageSystemDBModel.Room" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
-        <AssociationConnector Association="HotelManageSystemDBModel.FK_Bookings_Rooms" ManuallyRouted="false" />
-        <AssociationConnector Association="HotelManageSystemDBModel.FK_Rooms_Hotels" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="HotelManageSystemDBModel.Room" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="HotelManageSystemDBModel.FK_Booking_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelManageSystemDBModel.FK_Room_Hotel" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
