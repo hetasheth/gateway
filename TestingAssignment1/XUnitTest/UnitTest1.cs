@@ -41,7 +41,7 @@ namespace XUnitTest
             var passenger = new Passenger();
             passenger.PassengerNumber = new Guid("3CDBC747-DB0A-4EF1-9353-6A1110DC05B9");
 
-            var resultType = mockDataRepo.Setup(x => x.GetPassengerById(passenger.PassengerNumber.ToString())).Returns(passenger);
+            var resultType = mockDataRepo.Setup(x => x.GetPassengerById(passenger.PassengerNumber)).Returns(passenger);
             // Act
             var result = _passengerController.GetPassengerById(passenger.PassengerNumber.ToString());
             // Assert
@@ -52,18 +52,12 @@ namespace XUnitTest
         [Fact]
         public void TestRegisterPassenger()
         {
-            var pass = new Passenger() 
-            { 
-                PassengerNumber = new Guid(), 
-                FirstName = "Heta", 
-                Lastname = "Sheth", 
-                PhoneNumber = "7744112255" 
-            };
-            var response = mockDataRepo.Setup(x => x.Register(pass)).Returns(true);
+            
+            var response = mockDataRepo.Setup(x => x.Register(AddPassenger())).Returns(true);
 
             // Act
-            var result = _passengerController.RegisterPassenger(pass);
-            Assert.NotNull(result);
+            var result = _passengerController.RegisterPassenger(AddPassenger());
+            Assert.IsType<OkResult>(result);
         }
 
         [Fact]
@@ -89,9 +83,9 @@ namespace XUnitTest
 
             var resultType = mockDataRepo.Setup(x => x.Delete(passenger.PassengerNumber.ToString())).Returns(true);
             // Act
-            var response = _passengerController.DeletePassenger(passenger.PassengerNumber.ToString());
+            var response = _passengerController.DeletePassenger(passenger.PassengerNumber.ToString()) as OkNegotiatedContentResult<bool>;
             // Assert
-            Assert.IsType<OkResult>(response);
+            Assert.IsType<OkNegotiatedContentResult<bool>>(response);
         }
 
         private static List<Passenger> GetPassengerList()

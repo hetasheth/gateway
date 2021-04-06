@@ -57,10 +57,10 @@ namespace TestingWebAPI.Repository.Class
             return _dbContext.Passengers;
         }
 
-        public Passenger GetPassengerById(string id)
+        public Passenger GetPassengerById(Guid id)
         {
             // var passenger = _dbContext.Passengers.Where(s => (id.Equals(s.PassengerNumber.ToString()))).FirstOrDefault();
-            return _dbContext.Passengers.FirstOrDefault(p => p.PassengerNumber == Guid.Parse(id));            
+            return _dbContext.Passengers.FirstOrDefault(p => p.PassengerNumber == id);            
         }
 
     }

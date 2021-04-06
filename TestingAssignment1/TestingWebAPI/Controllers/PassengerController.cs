@@ -33,8 +33,8 @@ namespace TestingWebAPI.Controllers
             {
                 if (!string.IsNullOrEmpty(id))
                 {
-                    var passenger = _passengerRepository.GetPassengerById(id);
-                    if (passenger.FirstName != null)
+                    var passenger = _passengerRepository.GetPassengerById(Guid.Parse(id));
+                    if (passenger != null)
                     {
                         return Ok(passenger);
                     }

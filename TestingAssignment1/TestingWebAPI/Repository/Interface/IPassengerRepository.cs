@@ -12,6 +12,6 @@ namespace TestingWebAPI.Repository.Interface
         bool Update(Passenger passenger);
         bool Delete(string id);
         IQueryable<Passenger> GetPassengers();
-        Passenger GetPassengerById(string id);
+        Passenger GetPassengerById(Guid id);
     }
 }
